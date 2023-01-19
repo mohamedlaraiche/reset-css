@@ -6,13 +6,16 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-
 .container {
   margin: 10px auto;
 }
-
 a {
   text-decoration: none;
+}
+@media (min-width: 200px) {
+  .container {
+    width: 95%;
+  }
 }
 
 @media (min-width: 576px) {
